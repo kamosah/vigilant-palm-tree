@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@primo-ui": ["libs/primo-ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
