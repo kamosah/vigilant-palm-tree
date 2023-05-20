@@ -48,7 +48,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "jsdom": "~20.0.3",
     "nx": "16.2.1",
-    "nx-cloud": "latest",
+    "nx-cloud": "16.2.1",
     "prettier": "^2.6.2",
     "ts-node": "10.9.1",
     "typescript": "~5.0.2",
