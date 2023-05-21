@@ -1,17 +1,8 @@
-import styled from '@emotion/styled';
-
-import NxWelcome from './nx-welcome';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+import { RouterProvider } from '@tanstack/router';
+import { router } from '../components/Routes';
 
 export function App() {
-  return (
-    <StyledApp>
-      <NxWelcome title="primo" />
-    </StyledApp>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;
