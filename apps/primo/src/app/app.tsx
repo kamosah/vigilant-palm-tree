@@ -1,16 +1,16 @@
-import styled from '@emotion/styled';
+import { ReactQueryDevtools } from '@tanstack/react-query-devtools';
+import { RouterProvider } from '@tanstack/router';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { router } from '../components/Routes';
 
-import NxWelcome from './nx-welcome';
-
-const StyledApp = styled.div`
-  // Your style here
-`;
+const queryClient = new QueryClient();
 
 export function App() {
   return (
-    <StyledApp>
-      <NxWelcome title="primo" />
-    </StyledApp>
+    <QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />
+      <ReactQueryDevtools initialIsOpen={false} position="bottom-right" />
+    </QueryClientProvider>
   );
 }
 
