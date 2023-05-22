@@ -1099,7 +1099,7 @@
   resolved "https://registry.yarnpkg.com/@babel/regjsgen/-/regjsgen-0.8.0.tgz#f0ba69b075e1f05fb2825b7fad991e7adbb18310"
   integrity sha512-x/rqGMdzj+fWZvCOYForTghzbtqPDZ5gPwaoNGHdgDfF2QA/XZbCBp4Moo5scrkAMPhB7z26XM/AaHuIJdgauA==
 
-"@babel/runtime@^7.12.5", "@babel/runtime@^7.14.8", "@babel/runtime@^7.16.7", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.7", "@babel/runtime@^7.21.0", "@babel/runtime@^7.5.0", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
+"@babel/runtime@^7.12.5", "@babel/runtime@^7.14.8", "@babel/runtime@^7.17.8", "@babel/runtime@^7.18.3", "@babel/runtime@^7.20.7", "@babel/runtime@^7.5.0", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4":
   version "7.21.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.21.5.tgz#8492dddda9644ae3bda3b45eabe87382caee7200"
   integrity sha512-8jI69toZqqcsnqGGqwGS4Qb1VwLOEp4hz+CXPywcvjs60u3B4Pom/U/7rm4W8tMOYEB+E9wgD0mW1l3r8qlI9Q==
@@ -3446,25 +3446,6 @@
   dependencies:
     "@tanstack/store" "0.0.1-beta.89"
     use-sync-external-store "^1.2.0"
-
-"@tanstack/router-devtools@0.0.1-beta.89":
-  version "0.0.1-beta.89"
-  resolved "https://registry.yarnpkg.com/@tanstack/router-devtools/-/router-devtools-0.0.1-beta.89.tgz#28cfaa1679ceb02ea4a1b20f6573b3b93bfbeabb"
-  integrity sha512-b7YneX+wa0Ln/DAkQtPN2iDXzizbjPfZU+ywnTwDK0LAU915UmU8bQpVZ/z6aRUSW+2LZr+/VS2fth1LnP++wg==
-  dependencies:
-    "@babel/runtime" "^7.16.7"
-    "@tanstack/router" "0.0.1-beta.89"
-    date-fns "^2.29.1"
-
-"@tanstack/router@0.0.1-beta.89":
-  version "0.0.1-beta.89"
-  resolved "https://registry.yarnpkg.com/@tanstack/router/-/router-0.0.1-beta.89.tgz#a6bc4c4a5a64ec2d04221efca834199536762dfe"
-  integrity sha512-HSQshMk1+keZ/veRKW5BzE3xXBG/Cdhxuu3D4FiVft71Q9Io++PyokGxcFmjSgmMmM070lQaIAY36CfKAesQgQ==
-  dependencies:
-    "@babel/runtime" "^7.16.7"
-    "@tanstack/react-store" "0.0.1-beta.89"
-    tiny-invariant "^1.3.1"
-    tiny-warning "^1.0.3"
 
 "@tanstack/store@0.0.1-beta.89":
   version "0.0.1-beta.89"
@@ -6173,13 +6154,6 @@ data-urls@^3.0.2:
     abab "^2.0.6"
     whatwg-mimetype "^3.0.0"
     whatwg-url "^11.0.0"
-
-date-fns@^2.29.1:
-  version "2.30.0"
-  resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.30.0.tgz#f367e644839ff57894ec6ac480de40cae4b0f4d0"
-  integrity sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==
-  dependencies:
-    "@babel/runtime" "^7.21.0"
 
 date-time@^3.1.0:
   version "3.1.0"
@@ -13035,11 +13009,6 @@ tiny-invariant@^1.0.5, tiny-invariant@^1.3.1:
   version "1.3.1"
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.3.1.tgz#8560808c916ef02ecfd55e66090df23a4b7aa642"
   integrity sha512-AD5ih2NlSssTCwsMznbvwMZpJ1cbhkGd2uueNxzv2jDlEeZdU04JQfRnggJQ8DrcVBGjAsCKwFBbDlVNtEMlzw==
-
-tiny-warning@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
-  integrity sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==
 
 tinybench@^2.5.0:
   version "2.5.0"
