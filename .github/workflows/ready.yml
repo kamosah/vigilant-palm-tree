@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  main:
+    name: Unit Test & Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: |
+            yarn install
+            npx nx run-many --all --target=lint
+            npx nx run-many --all --target=test --ci --code-coverage
+            npx nx run-many --all --target=build
