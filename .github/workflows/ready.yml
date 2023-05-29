@@ -13,7 +13,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: |
-            yarn install
-            npx nx run-many --all --target=lint
-            npx nx run-many --all --target=test --ci --code-coverage
-            npx nx run-many --all --target=build
+          yarn install
+          npx nx run-many affected:lint
+          npx nx run-many affected:test --ci --code-coverage
+          npx nx run-many affected:build
+          npx nx run-many affected:e2e 
+          npx nx run-many affected:test-storybook
