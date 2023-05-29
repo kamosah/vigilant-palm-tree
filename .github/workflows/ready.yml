@@ -17,7 +17,7 @@ jobs:
       - uses: nrwl/nx-set-shas@v3
       - run: |
           yarn install
-          npx nx affected -t lint head=
+          npx nx affected -t lint
           npx nx affected -t test --ci --code-coverage 
           npx nx affected -t build
           npx nx affected -t e2e
