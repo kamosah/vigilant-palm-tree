@@ -4,6 +4,6 @@ import { NxWelcome } from '../../pages/welcome/nx-welcome';
 export const router = createBrowserRouter([
   {
     path: '/',
-    element: <NxWelcome title="Welcome Primo" />,
+    element: <NxWelcome title="Primo" />,
   },
 ]);
