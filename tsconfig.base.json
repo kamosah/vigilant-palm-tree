@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@primo-api/api-interface": ["libs/api-interface/src/index.ts"],
       "@primo-ui": ["libs/primo-ui/src/index.ts"]
     }
   },
