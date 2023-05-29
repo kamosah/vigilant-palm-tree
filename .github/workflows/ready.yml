@@ -14,8 +14,8 @@ jobs:
       - uses: actions/checkout@v2
       - run: |
           yarn install
-          npx nx affected:lint
-          npx nx affected:test --ci --code-coverage
-          npx nx affected:build
-          npx nx affected:e2e 
-          npx nx affected:test-storybook
+          npx nx affected --target=lint
+          npx nx affected --target=test --ci --code-coverage
+          npx nx affected --target=build
+          npx nx affected --target=e2e 
+          npx nx affected --target=test-storybook
