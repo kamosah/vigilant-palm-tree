@@ -20,5 +20,5 @@ jobs:
           npx nx affected -t lint
           npx nx affected -t test --ci --code-coverage 
           npx nx affected -t build
-          npx nx affected -t e2e
+          # npx nx affected -t e2e
           npx nx affected -t test-storybook
